@@ -7,15 +7,30 @@
     <style>
         body{
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* ShortHand - background
+            color> image > position > repeat > [size N funcionou no teste]
+             > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') 
+            center center no-repeat fixed;
+            background-size: cover;
+
+            
+            
+            
             }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +43,8 @@
 <body>
     <main>
     <h1>Teste com Imagem de Fundo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto incidunt, inventore nesciunt corporis ducimus corrupti eaque, dolore quos quae minima ratione nulla repellat porro esse excepturi asperiores, dolor quibusdam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores facere quia eos maiores tempore? Quas omnis sunt commodi quaerat? Saepe explicabo illum minima nostrum distinctio mollitia praesentium et corporis ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sed impedit quasi? Soluta iure voluptatem eius, architecto iusto nam maxime corporis exercitationem mollitia, saepe animi eos! Commodi perferendis dicta molestiae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto incidunt, inventore nesciunt corporis ducimus corrupti eaque, dolore quos quae minima ratione nulla repellat porro esse excepturi asperiores, dolor quibusdam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores facere quia eos maiores tempore? Quas omnis sunt commodi quaerat? Saepe explicabo illum minima nostrum distinctio mollitia praesentium et corporis ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sed impedit quasi? Soluta iure voluptatem eius, architecto iusto nam maxime corporis exercitationem mollitia, saepe animi eos! Commodi perferendis dicta molestiae.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto incidunt, inventore nesciunt corporis ducimus corrupti eaque, dolore quos quae minima ratione nulla repellat porro esse excepturi asperiores, dolor quibusdam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores facere quia eos maiores tempore? Quas omnis sunt commodi quaerat? Saepe explicabo illum minima nostrum distinctio mollitia praesentium et corporis ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sed impedit quasi? Soluta iure voluptatem eius, architecto iusto nam maxime corporis exercitationem mollitia, saepe animi eos! Commodi perferendis dicta molestiae.</p>
 </main>
 </body>
